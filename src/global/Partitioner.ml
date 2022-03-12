@@ -82,6 +82,8 @@ let relation_part_options: (string * (int * int) gen_part_info_t) list =
       ("DELTA_GRAPH2", DistributedRandom);
       ("GRAPH3", DistributedByKey([(0, 1000); (1, 1000)]));
       ("DELTA_GRAPH3", DistributedRandom);
+      ("GRAPH4", DistributedByKey([(0, 1000); (1, 1000)]));
+      ("DELTA_GRAPH4", DistributedRandom);
 
       (* ("DELTA_R", Local); *)
       (* ("DELTA_S", Local); *)
